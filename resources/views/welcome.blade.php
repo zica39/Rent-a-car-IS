@@ -57,6 +57,7 @@
 
                                    <p class="font-weight-bold">Installation:
                                     <ul>
+                                        <li>configure the db in the .env file</li>
                                         <li>php artisan migrate:fresh --seed</li>
                                         <li>php artisan config:cache</li>
                                         <li>php artisan storage:link</li>
